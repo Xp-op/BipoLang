@@ -1,0 +1,24 @@
+
+x: bool = input() != "";
+y: bool = input() != "";
+
+match (x, y):
+    == (true, false):
+        print("y is empty");
+        end
+    == (false, true):
+        print("x is empty");
+        end
+    >= (false, false):
+        print("both empty");
+        end
+    else:
+        print("no empty");
+        end
+end
+
+for i in {('a'..'z') + ('z'..'a')}:
+    print(i); // ('a','z')
+              // ('b','y')
+              // ...
+end

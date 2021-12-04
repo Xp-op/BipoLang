@@ -1,0 +1,8 @@
+
+func add(x, y):
+    return x + y;
+end
+
+add(1, 2);
+add(2.3, 2.1);
+add("e",2); // Compile Error
